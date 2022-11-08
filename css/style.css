@@ -593,14 +593,11 @@ body {
   transition: fill var(--transition);
 }
 
+.modal-close:hover .modal-close-icon,
 .modal-close:focus .modal-close-icon {
   fill: var(--accent-color);
 }
 
-.modal-close-icon:hover,
-.modal-close-icon:focus {
-  fill: var(--accent-color);
-}
 
 .backdrop.is-hidden {
   opacity: 0;
